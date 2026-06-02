@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>STEEL — Металлоконструкции и изделия из металла</title>
+  <meta name="description" content="Производство и продажа металлоконструкций, ворот, заборов, лестниц и изделий из металла. Собственное производство, гарантия качества." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header" id="header">
+    <div class="container">
+      <div class="header__inner">
+        <a href="#" class="logo">
+          <span class="logo__icon">⬡</span>
+          <span class="logo__text">STEEL</span>
+        </a>
+
+        <nav class="nav" id="nav">
+          <ul class="nav__list">
+            <li><a href="#services" class="nav__link">Услуги</a></li>
+            <li><a href="#about" class="nav__link">О нас</a></li>
+            <li><a href="#advantages" class="nav__link">Преимущества</a></li>
+            <li><a href="#portfolio" class="nav__link">Портфолио</a></li>
+            <li><a href="#process" class="nav__link">Как мы работаем</a></li>
+            <li><a href="#contacts" class="nav__link">Контакты</a></li>
+          </ul>
+        </nav>
+
+        <div class="header__right">
+          <a href="tel:+74951234567" class="header__phone">+7 (495) 123-45-67</a>
+          <a href="#cta" class="btn btn--outline btn--sm">Заказать звонок</a>
+        </div>
+
+        <button class="burger" id="burger" aria-label="Меню">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero__bg">
+      <div class="hero__overlay"></div>
+    </div>
+    <div class="container">
+      <div class="hero__content">
+        <div class="hero__badge">Собственное производство</div>
+        <h1 class="hero__title">
+          Металлоконструкции<br />
+          <span class="accent">любой сложности</span>
+        </h1>
+        <p class="hero__subtitle">
+          Производим и монтируем металлические ворота, заборы, лестницы,<br />
+          навесы, металлоконструкции под ключ — быстро и с гарантией
+        </p>
+        <div class="hero__actions">
+          <a href="#cta" class="btn btn--primary btn--lg">Получить расчёт</a>
+          <a href="#portfolio" class="btn btn--ghost btn--lg">Смотреть работы</a>
+        </div>
+        <div class="hero__stats">
+          <div class="hero__stat">
+            <strong>15+</strong>
+            <span>лет опыта</span>
+          </div>
+          <div class="hero__stat">
+            <strong>800+</strong>
+            <span>проектов</span>
+          </div>
+          <div class="hero__stat">
+            <strong>5 лет</strong>
+            <span>гарантия</span>
+          </div>
+          <div class="hero__stat">
+            <strong>24/7</strong>
+            <span>поддержка</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero__scroll">
+      <a href="#services">
+        <span class="hero__scroll-line"></span>
+      </a>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="section services" id="services">
+    <div class="container">
+      <div class="section__header">
+        <div class="section__label">Что мы делаем</div>
+        <h2 class="section__title">Наши услуги</h2>
+        <p class="section__desc">Полный цикл производства — от проекта до монтажа</p>
+      </div>
+
+      <div class="services__grid">
+
+        <div class="service-card">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 48 48" fill="none"><rect x="4" y="16" width="40" height="6" rx="2" fill="currentColor" opacity=".3"/><rect x="4" y="26" width="40" height="6" rx="2" fill="currentColor" opacity=".3"/><rect x="10" y="8" width="6" height="32" rx="2" fill="currentColor"/><rect x="32" y="8" width="6" height="32" rx="2" fill="currentColor"/></svg>
+          </div>
+          <h3 class="service-card__title">Металлоконструкции</h3>
+          <p class="service-card__text">Каркасы зданий, балки, колонны, фермы, перекрытия для промышленного и гражданского строительства.</p>
+          <a href="#cta" class="service-card__link">Подробнее →</a>
+        </div>
+
+        <div class="service-card">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 48 48" fill="none"><rect x="4" y="8" width="40" height="32" rx="3" stroke="currentColor" stroke-width="3" fill="none"/><line x1="24" y1="8" x2="24" y2="40" stroke="currentColor" stroke-width="3"/><rect x="20" y="21" width="8" height="6" rx="1" fill="currentColor"/></svg>
+          </div>
+          <h3 class="service-card__title">Ворота и заборы</h3>
+          <p class="service-card__text">Откатные и распашные ворота, сварные и кованые заборы, секции из профнастила и сетки-рабицы.</p>
+          <a href="#cta" class="service-card__link">Подробнее →</a>
+        </div>
+
+        <div class="service-card">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 48 48" fill="none"><path d="M8 40 L20 8 L28 8 L40 40" stroke="currentColor" stroke-width="3" fill="none"/><line x1="12" y1="30" x2="36" y2="30" stroke="currentColor" stroke-width="3"/><line x1="16" y1="20" x2="32" y2="20" stroke="currentColor" stroke-width="3"/></svg>
+          </div>
+          <h3 class="service-card__title">Лестницы и перила</h3>
+          <p class="service-card__text">Маршевые и винтовые лестницы, ограждения и перила из нержавеющей стали, профильной трубы и кованого металла.</p>
+          <a href="#cta" class="service-card__link">Подробнее →</a>
+        </div>
+
+        <div class="service-card">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 48 48" fill="none"><path d="M4 32 L24 10 L44 32" stroke="currentColor" stroke-width="3" fill="none"/><line x1="4" y1="32" x2="44" y2="32" stroke="currentColor" stroke-width="3"/><line x1="10" y1="32" x2="10" y2="42" stroke="currentColor" stroke-width="3"/><line x1="38" y1="32" x2="38" y2="42" stroke="currentColor" stroke-width="3"/></svg>
+          </div>
+          <h3 class="service-card__title">Навесы и козырьки</h3>
+          <p class="service-card__text">Навесы для автомобилей, террасные козырьки, укрытия над входными группами с поликарбонатом или профлистом.</p>
+          <a href="#cta" class="service-card__link">Подробнее →</a>
+        </div>
+
+        <div class="service-card">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 48 48" fill="none"><rect x="8" y="6" width="32" height="36" rx="2" stroke="currentColor" stroke-width="3" fill="none"/><line x1="8" y1="18" x2="40" y2="18" stroke="currentColor" stroke-width="2" opacity=".5"/><circle cx="34" cy="24" r="3" fill="currentColor"/></svg>
+          </div>
+          <h3 class="service-card__title">Металлические двери</h3>
+          <p class="service-card__text">Входные и технические двери, гаражные ворота. Индивидуальное изготовление по вашим размерам.</p>
+          <a href="#cta" class="service-card__link">Подробнее →</a>
+        </div>
+
+        <div class="service-card service-card--accent">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 48 48" fill="none"><path d="M8 40 C12 20 20 16 24 24 C28 32 36 28 40 8" stroke="currentColor" stroke-width="3" fill="none" stroke-linecap="round"/><circle cx="24" cy="24" r="4" fill="currentColor"/></svg>
+          </div>
+          <h3 class="service-card__title">Художественная ковка</h3>
+          <p class="service-card__text">Кованые ворота, решётки, перила и декоративные элементы. Авторские эскизы или по вашему проекту.</p>
+          <a href="#cta" class="service-card__link">Подробнее →</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="about__inner">
+        <div class="about__content">
+          <div class="section__label">О компании</div>
+          <h2 class="section__title">Производим металл с&nbsp;2009&nbsp;года</h2>
+          <p class="about__text">
+            Компания <strong>STEEL</strong> — это полный производственный цикл: от проектирования до монтажа. Собственный цех площадью 2 000 м² оснащён современным оборудованием для лазерной резки, сварки и обработки металла.
+          </p>
+          <p class="about__text">
+            Работаем с частными заказчиками, строительными компаниями и промышленными предприятиями. Более 800 реализованных проектов в Москве и Подмосковье.
+          </p>
+          <ul class="about__list">
+            <li>Лазерная резка металла до 20 мм</li>
+            <li>Гибка, сварка, порошковая покраска</li>
+            <li>Собственный монтажный отдел</li>
+            <li>Выезд замерщика бесплатно</li>
+          </ul>
+          <a href="#cta" class="btn btn--primary">Обсудить проект</a>
+        </div>
+        <div class="about__numbers">
+          <div class="about__num">
+            <strong class="num-counter" data-target="15">0</strong>
+            <span class="num-suffix">лет</span>
+            <p>на рынке</p>
+          </div>
+          <div class="about__num">
+            <strong class="num-counter" data-target="800">0</strong>
+            <span class="num-suffix">+</span>
+            <p>проектов</p>
+          </div>
+          <div class="about__num">
+            <strong class="num-counter" data-target="350">0</strong>
+            <span class="num-suffix">+</span>
+            <p>клиентов</p>
+          </div>
+          <div class="about__num">
+            <strong class="num-counter" data-target="2000">0</strong>
+            <span class="num-suffix">м²</span>
+            <p>производство</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ADVANTAGES -->
+  <section class="section advantages" id="advantages">
+    <div class="container">
+      <div class="section__header">
+        <div class="section__label">Почему мы</div>
+        <h2 class="section__title">Наши преимущества</h2>
+      </div>
+      <div class="advantages__grid">
+
+        <div class="adv-card">
+          <div class="adv-card__num">01</div>
+          <div class="adv-card__icon">
+            <svg viewBox="0 0 40 40" fill="none"><path d="M6 20 L14 28 L34 12" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Собственное производство</h3>
+          <p>Всё делаем сами — никаких посредников. Полный контроль качества на каждом этапе.</p>
+        </div>
+
+        <div class="adv-card">
+          <div class="adv-card__num">02</div>
+          <div class="adv-card__icon">
+            <svg viewBox="0 0 40 40" fill="none"><circle cx="20" cy="20" r="14" stroke="currentColor" stroke-width="3"/><path d="M20 12 L20 20 L26 26" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Соблюдение сроков</h3>
+          <p>Прописываем сроки в договоре. За каждый день просрочки — компенсация 0.5% от стоимости.</p>
+        </div>
+
+        <div class="adv-card">
+          <div class="adv-card__num">03</div>
+          <div class="adv-card__icon">
+            <svg viewBox="0 0 40 40" fill="none"><path d="M20 6 L24 16 L36 16 L26 23 L30 34 L20 27 L10 34 L14 23 L4 16 L16 16 Z" stroke="currentColor" stroke-width="2.5" fill="none"/></svg>
+          </div>
+          <h3>Гарантия 5 лет</h3>
+          <p>Даём письменную гарантию на все виды работ. Приедем и устраним любой дефект бесплатно.</p>
+        </div>
+
+        <div class="adv-card">
+          <div class="adv-card__num">04</div>
+          <div class="adv-card__icon">
+            <svg viewBox="0 0 40 40" fill="none"><rect x="6" y="6" width="28" height="28" rx="4" stroke="currentColor" stroke-width="3" fill="none"/><path d="M13 20 L27 20 M20 13 L20 27" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Индивидуальный подход</h3>
+          <p>Разрабатываем уникальные решения под каждый объект. Работаем с нестандартными задачами.</p>
+        </div>
+
+        <div class="adv-card">
+          <div class="adv-card__num">05</div>
+          <div class="adv-card__icon">
+            <svg viewBox="0 0 40 40" fill="none"><path d="M8 32 C8 24 14 18 20 18 C26 18 32 24 32 32" stroke="currentColor" stroke-width="3" fill="none"/><circle cx="20" cy="12" r="5" stroke="currentColor" stroke-width="3" fill="none"/></svg>
+          </div>
+          <h3>Личный менеджер</h3>
+          <p>За каждым проектом закреплён персональный менеджер — всегда на связи от заявки до сдачи.</p>
+        </div>
+
+        <div class="adv-card">
+          <div class="adv-card__num">06</div>
+          <div class="adv-card__icon">
+            <svg viewBox="0 0 40 40" fill="none"><rect x="6" y="14" width="28" height="20" rx="3" stroke="currentColor" stroke-width="3" fill="none"/><path d="M14 14 L14 10 C14 7.8 15.8 6 18 6 L22 6 C24.2 6 26 7.8 26 10 L26 14" stroke="currentColor" stroke-width="3"/></svg>
+          </div>
+          <h3>Прозрачные цены</h3>
+          <p>Фиксированная смета до начала работ. Стоимость не меняется в процессе выполнения заказа.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO -->
+  <section class="section portfolio" id="portfolio">
+    <div class="container">
+      <div class="section__header">
+        <div class="section__label">Наши работы</div>
+        <h2 class="section__title">Портфолио</h2>
+        <p class="section__desc">Реализованные проекты в Москве и Московской области</p>
+      </div>
+
+      <div class="portfolio__filter">
+        <button class="filter-btn active" data-filter="all">Все</button>
+        <button class="filter-btn" data-filter="gates">Ворота</button>
+        <button class="filter-btn" data-filter="stairs">Лестницы</button>
+        <button class="filter-btn" data-filter="structures">Конструкции</button>
+        <button class="filter-btn" data-filter="fences">Заборы</button>
+      </div>
+
+      <div class="portfolio__grid">
+        <div class="portfolio-item" data-category="gates">
+          <div class="portfolio-item__img portfolio-item__img--1">
+            <div class="portfolio-item__overlay">
+              <span class="portfolio-item__cat">Ворота откатные</span>
+              <p>Жилой комплекс, Химки</p>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item" data-category="stairs">
+          <div class="portfolio-item__img portfolio-item__img--2">
+            <div class="portfolio-item__overlay">
+              <span class="portfolio-item__cat">Лестница маршевая</span>
+              <p>Частный дом, Рублёвка</p>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item" data-category="structures">
+          <div class="portfolio-item__img portfolio-item__img--3">
+            <div class="portfolio-item__overlay">
+              <span class="portfolio-item__cat">Металлоконструкция</span>
+              <p>Склад, Подольск</p>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item" data-category="fences">
+          <div class="portfolio-item__img portfolio-item__img--4">
+            <div class="portfolio-item__overlay">
+              <span class="portfolio-item__cat">Кованый забор</span>
+              <p>Коттеджный посёлок</p>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item" data-category="gates">
+          <div class="portfolio-item__img portfolio-item__img--5">
+            <div class="portfolio-item__overlay">
+              <span class="portfolio-item__cat">Ворота распашные</span>
+              <p>Производственный объект</p>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item" data-category="stairs">
+          <div class="portfolio-item__img portfolio-item__img--6">
+            <div class="portfolio-item__overlay">
+              <span class="portfolio-item__cat">Перила из нержавейки</span>
+              <p>Офисный центр, Москва</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="section process" id="process">
+    <div class="container">
+      <div class="section__header">
+        <div class="section__label">Этапы работы</div>
+        <h2 class="section__title">Как мы работаем</h2>
+        <p class="section__desc">От первого звонка до готового объекта</p>
+      </div>
+
+      <div class="process__steps">
+        <div class="process-step">
+          <div class="process-step__num">01</div>
+          <div class="process-step__body">
+            <h3>Заявка</h3>
+            <p>Оставьте заявку на сайте или позвоните нам. Ответим в течение 15 минут.</p>
+          </div>
+        </div>
+        <div class="process-step">
+          <div class="process-step__num">02</div>
+          <div class="process-step__body">
+            <h3>Замер</h3>
+            <p>Бесплатный выезд замерщика на объект. Учитываем все нюансы на месте.</p>
+          </div>
+        </div>
+        <div class="process-step">
+          <div class="process-step__num">03</div>
+          <div class="process-step__body">
+            <h3>Проект и смета</h3>
+            <p>Готовим 3D-визуализацию и фиксированную смету. Согласовываем с вами.</p>
+          </div>
+        </div>
+        <div class="process-step">
+          <div class="process-step__num">04</div>
+          <div class="process-step__body">
+            <h3>Производство</h3>
+            <p>Изготавливаем изделие в нашем цехе. Контроль качества на каждом этапе.</p>
+          </div>
+        </div>
+        <div class="process-step">
+          <div class="process-step__num">05</div>
+          <div class="process-step__body">
+            <h3>Доставка</h3>
+            <p>Доставляем собственным транспортом. Бесплатно в радиусе 50 км от Москвы.</p>
+          </div>
+        </div>
+        <div class="process-step">
+          <div class="process-step__num">06</div>
+          <div class="process-step__body">
+            <h3>Монтаж и сдача</h3>
+            <p>Профессиональная установка нашей бригадой. Подписание акта и выдача гарантийного талона.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA / FORM -->
+  <section class="section cta-section" id="cta">
+    <div class="container">
+      <div class="cta-section__inner">
+        <div class="cta-section__content">
+          <div class="section__label">Бесплатно</div>
+          <h2 class="section__title">Получите расчёт стоимости</h2>
+          <p>Оставьте заявку — перезвоним в течение 15 минут, ответим на все вопросы и назначим бесплатный выезд замерщика.</p>
+          <ul class="cta-section__bonuses">
+            <li>Замер и выезд — бесплатно</li>
+            <li>Смета в день обращения</li>
+            <li>Скидка 5% при заказе онлайн</li>
+          </ul>
+        </div>
+        <form class="cta-form" id="ctaForm" novalidate>
+          <div class="form-group">
+            <label for="name">Ваше имя</label>
+            <input type="text" id="name" name="name" placeholder="Иван Иванов" required />
+          </div>
+          <div class="form-group">
+            <label for="phone">Телефон</label>
+            <input type="tel" id="phone" name="phone" placeholder="+7 (___) ___-__-__" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Описание проекта</label>
+            <textarea id="message" name="message" rows="3" placeholder="Расскажите, что нужно сделать..."></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full">Отправить заявку</button>
+          <p class="form-note">Нажимая кнопку, вы соглашаетесь с <a href="#">политикой конфиденциальности</a></p>
+          <div class="form-success" id="formSuccess">
+            <strong>Заявка отправлена!</strong> Свяжемся с вами в течение 15 минут.
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTS -->
+  <section class="section contacts" id="contacts">
+    <div class="container">
+      <div class="section__header">
+        <div class="section__label">Где нас найти</div>
+        <h2 class="section__title">Контакты</h2>
+      </div>
+      <div class="contacts__inner">
+        <div class="contacts__info">
+          <div class="contact-item">
+            <div class="contact-item__icon">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" fill="currentColor"/></svg>
+            </div>
+            <div>
+              <strong>Адрес</strong>
+              <p>г. Москва, ул. Промышленная, д. 12, стр. 3</p>
+              <small>Производство: МО, Подольск, ул. Заводская, 8</small>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-item__icon">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" fill="currentColor"/></svg>
+            </div>
+            <div>
+              <strong>Телефон</strong>
+              <p><a href="tel:+74951234567">+7 (495) 123-45-67</a></p>
+              <small>Звонки ежедневно с 8:00 до 20:00</small>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-item__icon">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" fill="currentColor"/></svg>
+            </div>
+            <div>
+              <strong>Email</strong>
+              <p><a href="mailto:info@steel-msk.ru">info@steel-msk.ru</a></p>
+              <small>Ответим в течение одного рабочего дня</small>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-item__icon">
+              <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/><path d="M12 6v6l4 2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            </div>
+            <div>
+              <strong>Режим работы</strong>
+              <p>Пн–Пт: 9:00 – 19:00</p>
+              <small>Сб–Вс: 10:00 – 16:00</small>
+            </div>
+          </div>
+
+          <div class="contacts__social">
+            <a href="#" class="social-link" aria-label="VK">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69.01-.03.01-.14-.07-.2-.08-.06-.19-.04-.27-.02-.12.02-1.96 1.25-5.54 3.67-.52.36-1 .53-1.42.52-.47-.01-1.37-.26-2.03-.48-.82-.27-1.47-.42-1.42-.88.03-.24.29-.49.79-.74 3.08-1.34 5.15-2.23 6.19-2.66 2.95-1.23 3.56-1.44 3.96-1.45.09 0 .28.02.4.12.1.08.13.19.14.27-.01.06.01.24 0 .24z"/></svg>
+            </a>
+            <a href="#" class="social-link" aria-label="Telegram">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8l-1.68 7.94c-.12.56-.46.7-.93.43l-2.58-1.9-1.24 1.2c-.14.14-.26.26-.53.26l.18-2.62 4.74-4.28c.21-.18-.04-.28-.32-.1L7.9 14.36l-2.52-.79c-.55-.17-.56-.55.12-.82l9.85-3.8c.46-.17.86.11.29.85z"/></svg>
+            </a>
+            <a href="#" class="social-link" aria-label="WhatsApp">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12c0 1.85.5 3.58 1.37 5.07L2 22l5.08-1.34C8.46 21.52 10.17 22 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm5.12 14.18c-.22.6-1.25 1.15-1.71 1.2-.46.04-.47.35-2.97-.67-2.94-1.18-4.67-4.22-4.81-4.41-.14-.2-1.12-1.55-1.06-2.93.06-1.38.74-2.04 1-2.31.26-.27.56-.33.74-.34l.53-.01c.17 0 .4.06.61.48l.87 2.1c.08.2.13.44.01.68l-.39.76-.31.45c.07.12.42.66.94 1.15.71.67 1.31.9 1.5.99l.49-.57c.24-.28.59-.38.9-.23l1.97.95c.29.14.46.28.5.45.05.17-.03.8-.25 1.41z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="contacts__map">
+          <div class="map-placeholder">
+            <div class="map-placeholder__inner">
+              <svg viewBox="0 0 64 64" fill="none"><path d="M32 8C23.16 8 16 15.16 16 24c0 13 16 32 16 32s16-19 16-32c0-8.84-7.16-16-16-16zm0 22c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6z" fill="currentColor" opacity=".3"/></svg>
+              <p>г. Москва, ул. Промышленная, 12</p>
+              <a href="https://yandex.ru/maps/" target="_blank" class="btn btn--outline btn--sm" rel="noopener">Открыть на карте</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <a href="#" class="logo">
+            <span class="logo__icon">⬡</span>
+            <span class="logo__text">STEEL</span>
+          </a>
+          <p>Металлоконструкции и изделия из металла. Производство полного цикла в Москве.</p>
+        </div>
+        <div class="footer__nav">
+          <strong>Услуги</strong>
+          <ul>
+            <li><a href="#services">Металлоконструкции</a></li>
+            <li><a href="#services">Ворота и заборы</a></li>
+            <li><a href="#services">Лестницы и перила</a></li>
+            <li><a href="#services">Навесы и козырьки</a></li>
+            <li><a href="#services">Металлические двери</a></li>
+          </ul>
+        </div>
+        <div class="footer__nav">
+          <strong>Компания</strong>
+          <ul>
+            <li><a href="#about">О нас</a></li>
+            <li><a href="#portfolio">Портфолио</a></li>
+            <li><a href="#process">Как мы работаем</a></li>
+            <li><a href="#contacts">Контакты</a></li>
+          </ul>
+        </div>
+        <div class="footer__contact">
+          <strong>Контакты</strong>
+          <p><a href="tel:+74951234567">+7 (495) 123-45-67</a></p>
+          <p><a href="mailto:info@steel-msk.ru">info@steel-msk.ru</a></p>
+          <p>Пн–Пт 9:00–19:00</p>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>© 2009–2026 STEEL. Все права защищены.</p>
+        <a href="#">Политика конфиденциальности</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <button class="back-top" id="backTop" aria-label="Наверх">↑</button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
