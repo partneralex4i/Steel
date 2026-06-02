@@ -196,6 +196,32 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 }
 .header__phone:hover { color: var(--accent); }
 
+.header__right-col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 6px;
+}
+
+.btn--download {
+  background: #ffe000;
+  color: #000;
+  font-family: var(--font-head);
+  font-weight: 800;
+  font-size: 13px;
+  letter-spacing: .3px;
+  padding: 8px 18px;
+  border-radius: 6px;
+  white-space: nowrap;
+  transition: all var(--transition);
+  box-shadow: 0 2px 12px rgba(255,224,0,.35);
+}
+.btn--download:hover {
+  background: #ffd000;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 18px rgba(255,224,0,.55);
+}
+
 .burger {
   display: none;
   flex-direction: column;
