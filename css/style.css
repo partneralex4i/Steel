@@ -1385,6 +1385,30 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 }
 .footer__bottom a:hover { color: var(--accent); }
 
+.footer__bar {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+  padding: 24px 0;
+  border-bottom: 1px solid var(--border);
+}
+.footer__bar-sep {
+  color: var(--border);
+  font-size: 14px;
+}
+.footer__bar-item {
+  font-size: 13px;
+  color: var(--text-muted);
+}
+.footer__bar-link {
+  color: var(--text-muted);
+  text-decoration: none;
+  transition: color var(--transition);
+}
+.footer__bar-link:hover { color: var(--accent); }
+.footer__bar-logo { flex-shrink: 0; }
+
 .footer__requisites {
   border-top: 1px solid var(--border);
   padding: 20px 0;
