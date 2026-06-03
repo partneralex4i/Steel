@@ -195,6 +195,11 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   color: var(--white);
 }
 .header__phone:hover { color: var(--accent); }
+.header__email {
+  font-size: 13px;
+  color: var(--text-muted);
+}
+.header__email:hover { color: var(--accent); }
 
 .header__right-col {
   display: flex;
