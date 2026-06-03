@@ -281,7 +281,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 .cat-row {
   display: flex;
   align-items: stretch;
-  min-height: 220px;
+  height: 220px;
   background: var(--bg-3);
   text-decoration: none;
   overflow: hidden;
