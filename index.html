@@ -12,7 +12,7 @@
 </head>
 <body>
 
-  <!-- HEADER -->
+  <!-- 1+2. ШАПКА -->
   <header class="header" id="header">
     <div class="container">
       <div class="header__inner">
@@ -20,25 +20,12 @@
           <span class="logo__icon">⬡</span>
           <span class="logo__text">ЦветСплав</span>
         </a>
-
-        <nav class="nav" id="nav">
-          <ul class="nav__list">
-            <li><a href="#services" class="nav__link">Услуги</a></li>
-            <li><a href="#about" class="nav__link">О нас</a></li>
-            <li><a href="#advantages" class="nav__link">Преимущества</a></li>
-            <li><a href="#portfolio" class="nav__link">Портфолио</a></li>
-            <li><a href="#process" class="nav__link">Как мы работаем</a></li>
-            <li><a href="#contacts" class="nav__link">Контакты</a></li>
-          </ul>
-        </nav>
-
         <div class="header__right">
           <div class="header__right-col">
             <a href="tel:+79124602661" class="header__phone">+7 (912) 460-26-61</a>
             <a href="mailto:cvetsplav@mail.ru" class="header__email">cvetsplav@mail.ru</a>
           </div>
         </div>
-
         <button class="burger" id="burger" aria-label="Меню">
           <span></span><span></span><span></span>
         </button>
@@ -46,37 +33,33 @@
     </div>
   </header>
 
-  <!-- HERO -->
-  <section class="hero" id="hero">
-    <div class="hero__bg">
-      <div class="hero__overlay"></div>
-    </div>
+  <!-- 3. СКЛАДСКОЕ НАЛИЧИЕ -->
+  <section class="nalichie">
     <div class="container">
-      <div class="hero__inner">
-        <div class="hero__nalichie">
-          <span class="hero__nalichie-label">Складское наличие</span>
-          <a href="files/nalichie.xlsx" class="btn btn--primary" download>↓ Скачать Excel</a>
-        </div>
-        <div class="hero__split">
-          <div class="hero__split-left">
-            <h1 class="hero__title">Все виды <span class="accent">металлопроката</span></h1>
-            <p class="hero__subtitle">Напрямую от производителей</p>
-          </div>
-          <div class="hero__split-right">
-            <p class="hero__service-text">Механическая обработка, изготовление деталей по чертежам и образцам</p>
-          </div>
-        </div>
+      <div class="nalichie__inner">
+        <span class="nalichie__label">Складское наличие</span>
+        <a href="files/nalichie.xlsx" class="btn btn--primary" download>↓ Скачать Excel</a>
       </div>
-    </div>
-    <div class="hero__scroll">
-      <a href="#services">
-        <span class="hero__scroll-line"></span>
-      </a>
     </div>
   </section>
 
-  <!-- CATALOG -->
-  <section class="section catalog" id="services">
+  <!-- 4. ДВА ТЕКСТОВЫХ БЛОКА -->
+  <section class="hero-split">
+    <div class="container">
+      <div class="hero-split__grid">
+        <div class="hero-split__left">
+          <h1 class="hero-split__title">Все виды <span class="accent">металлопроката</span></h1>
+          <p class="hero-split__sub">Напрямую от производителей</p>
+        </div>
+        <div class="hero-split__right">
+          <p class="hero-split__service">Механическая обработка, изготовление деталей по чертежам и образцам</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5–10. КАТАЛОГ -->
+  <section class="section catalog" id="catalog">
     <div class="container">
       <div class="catalog__header">
         <span class="catalog__dots">● ● ●</span>
@@ -86,7 +69,7 @@
 
       <div class="catalog__grid">
 
-        <a href="#cta" class="cat-card cat-card--nerzhav">
+        <a href="mailto:cvetsplav@mail.ru" class="cat-card cat-card--nerzhav">
           <div class="cat-card__overlay"></div>
           <div class="cat-card__body">
             <span class="cat-card__name">НЕРЖАВЕЮЩИЙ<br>МЕТАЛЛОПРОКАТ</span>
@@ -94,7 +77,7 @@
           </div>
         </a>
 
-        <a href="#cta" class="cat-card cat-card--alum">
+        <a href="mailto:cvetsplav@mail.ru" class="cat-card cat-card--alum">
           <div class="cat-card__overlay"></div>
           <div class="cat-card__body">
             <span class="cat-card__name">АЛЮМИНИЕВЫЙ<br>МЕТАЛЛОПРОКАТ</span>
@@ -102,7 +85,7 @@
           </div>
         </a>
 
-        <a href="#cta" class="cat-card cat-card--bronz">
+        <a href="mailto:cvetsplav@mail.ru" class="cat-card cat-card--bronz">
           <div class="cat-card__overlay"></div>
           <div class="cat-card__body">
             <span class="cat-card__name">БРОНЗОВЫЙ<br>МЕТАЛЛОПРОКАТ</span>
@@ -110,7 +93,7 @@
           </div>
         </a>
 
-        <a href="#cta" class="cat-card cat-card--latun">
+        <a href="mailto:cvetsplav@mail.ru" class="cat-card cat-card--latun">
           <div class="cat-card__overlay"></div>
           <div class="cat-card__body">
             <span class="cat-card__name">ЛАТУННЫЙ<br>МЕТАЛЛОПРОКАТ</span>
@@ -118,7 +101,7 @@
           </div>
         </a>
 
-        <a href="#cta" class="cat-card cat-card--titan">
+        <a href="mailto:cvetsplav@mail.ru" class="cat-card cat-card--titan">
           <div class="cat-card__overlay"></div>
           <div class="cat-card__body">
             <span class="cat-card__name">ТИТАНОВЫЙ<br>МЕТАЛЛОПРОКАТ</span>
@@ -126,7 +109,7 @@
           </div>
         </a>
 
-        <a href="#cta" class="cat-card cat-card--med">
+        <a href="mailto:cvetsplav@mail.ru" class="cat-card cat-card--med">
           <div class="cat-card__overlay"></div>
           <div class="cat-card__body">
             <span class="cat-card__name">МЕДНЫЙ<br>МЕТАЛЛОПРОКАТ</span>
@@ -138,359 +121,7 @@
     </div>
   </section>
 
-  <!-- ABOUT -->
-  <section class="section about" id="about">
-    <div class="container">
-      <div class="about__inner">
-        <div class="about__content">
-          <div class="section__label">О компании</div>
-          <h2 class="section__title">Поставляем металлопрокат с&nbsp;2009&nbsp;года</h2>
-          <p class="about__text">
-            Компания <strong>ЦветСплав</strong> — надёжный поставщик цветного и нержавеющего металлопроката. Работаем напрямую с ведущими заводами-производителями, что позволяет предлагать конкурентные цены и широкий ассортимент в наличии.
-          </p>
-          <p class="about__text">
-            Работаем с частными заказчиками, строительными компаниями и промышленными предприятиями. Более 800 выполненных поставок по России.
-          </p>
-          <ul class="about__list">
-            <li>Широкий ассортимент в наличии на складе</li>
-            <li>Резка металла в размер под заказ</li>
-            <li>Доставка по Ижевску и Удмуртской Республике</li>
-            <li>Работа с юридическими лицами, НДС</li>
-          </ul>
-          <a href="#cta" class="btn btn--primary">Обсудить проект</a>
-        </div>
-        <div class="about__numbers">
-          <div class="about__num">
-            <strong class="num-counter" data-target="15">0</strong>
-            <span class="num-suffix">лет</span>
-            <p>на рынке</p>
-          </div>
-          <div class="about__num">
-            <strong class="num-counter" data-target="800">0</strong>
-            <span class="num-suffix">+</span>
-            <p>заказов</p>
-          </div>
-          <div class="about__num">
-            <strong class="num-counter" data-target="350">0</strong>
-            <span class="num-suffix">+</span>
-            <p>клиентов</p>
-          </div>
-          <div class="about__num">
-            <strong class="num-counter" data-target="2000">0</strong>
-            <span class="num-suffix">м²</span>
-            <p>склад</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ADVANTAGES -->
-  <section class="section advantages" id="advantages">
-    <div class="container">
-      <div class="section__header">
-        <div class="section__label">Почему мы</div>
-        <h2 class="section__title">Наши преимущества</h2>
-      </div>
-      <div class="advantages__grid">
-
-        <div class="adv-card">
-          <div class="adv-card__num">01</div>
-          <div class="adv-card__icon">
-            <svg viewBox="0 0 40 40" fill="none"><path d="M6 20 L14 28 L34 12" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          </div>
-          <h3>Прямые поставки от заводов</h3>
-          <p>Закупаем напрямую у производителей — без лишних наценок. Гарантируем подлинность и качество каждой партии.</p>
-        </div>
-
-        <div class="adv-card">
-          <div class="adv-card__num">02</div>
-          <div class="adv-card__icon">
-            <svg viewBox="0 0 40 40" fill="none"><circle cx="20" cy="20" r="14" stroke="currentColor" stroke-width="3"/><path d="M20 12 L20 20 L26 26" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
-          </div>
-          <h3>Соблюдение сроков</h3>
-          <p>Прописываем сроки в договоре. За каждый день просрочки — компенсация 0.5% от стоимости.</p>
-        </div>
-
-        <div class="adv-card">
-          <div class="adv-card__num">03</div>
-          <div class="adv-card__icon">
-            <svg viewBox="0 0 40 40" fill="none"><path d="M20 6 L24 16 L36 16 L26 23 L30 34 L20 27 L10 34 L14 23 L4 16 L16 16 Z" stroke="currentColor" stroke-width="2.5" fill="none"/></svg>
-          </div>
-          <h3>Гарантия 5 лет</h3>
-          <p>Даём письменную гарантию на все виды работ. Приедем и устраним любой дефект бесплатно.</p>
-        </div>
-
-        <div class="adv-card">
-          <div class="adv-card__num">04</div>
-          <div class="adv-card__icon">
-            <svg viewBox="0 0 40 40" fill="none"><rect x="6" y="6" width="28" height="28" rx="4" stroke="currentColor" stroke-width="3" fill="none"/><path d="M13 20 L27 20 M20 13 L20 27" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
-          </div>
-          <h3>Индивидуальный подход</h3>
-          <p>Разрабатываем уникальные решения под каждый объект. Работаем с нестандартными задачами.</p>
-        </div>
-
-        <div class="adv-card">
-          <div class="adv-card__num">05</div>
-          <div class="adv-card__icon">
-            <svg viewBox="0 0 40 40" fill="none"><path d="M8 32 C8 24 14 18 20 18 C26 18 32 24 32 32" stroke="currentColor" stroke-width="3" fill="none"/><circle cx="20" cy="12" r="5" stroke="currentColor" stroke-width="3" fill="none"/></svg>
-          </div>
-          <h3>Личный менеджер</h3>
-          <p>За каждым проектом закреплён персональный менеджер — всегда на связи от заявки до сдачи.</p>
-        </div>
-
-        <div class="adv-card">
-          <div class="adv-card__num">06</div>
-          <div class="adv-card__icon">
-            <svg viewBox="0 0 40 40" fill="none"><rect x="6" y="14" width="28" height="20" rx="3" stroke="currentColor" stroke-width="3" fill="none"/><path d="M14 14 L14 10 C14 7.8 15.8 6 18 6 L22 6 C24.2 6 26 7.8 26 10 L26 14" stroke="currentColor" stroke-width="3"/></svg>
-          </div>
-          <h3>Прозрачные цены</h3>
-          <p>Фиксированная смета до начала работ. Стоимость не меняется в процессе выполнения заказа.</p>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- PORTFOLIO -->
-  <section class="section portfolio" id="portfolio">
-    <div class="container">
-      <div class="section__header">
-        <div class="section__label">Наши работы</div>
-        <h2 class="section__title">Портфолио</h2>
-        <p class="section__desc">Объекты, реализованные нашими клиентами с использованием нашего металлопроката</p>
-      </div>
-
-      <div class="portfolio__filter">
-        <button class="filter-btn active" data-filter="all">Все</button>
-        <button class="filter-btn" data-filter="gates">Ворота</button>
-        <button class="filter-btn" data-filter="stairs">Лестницы</button>
-        <button class="filter-btn" data-filter="structures">Конструкции</button>
-        <button class="filter-btn" data-filter="fences">Заборы</button>
-      </div>
-
-      <div class="portfolio__grid">
-        <div class="portfolio-item" data-category="gates">
-          <div class="portfolio-item__img portfolio-item__img--1">
-            <div class="portfolio-item__overlay">
-              <span class="portfolio-item__cat">Ворота откатные</span>
-              <p>Жилой комплекс, Химки</p>
-            </div>
-          </div>
-        </div>
-        <div class="portfolio-item" data-category="stairs">
-          <div class="portfolio-item__img portfolio-item__img--2">
-            <div class="portfolio-item__overlay">
-              <span class="portfolio-item__cat">Лестница маршевая</span>
-              <p>Частный дом, Рублёвка</p>
-            </div>
-          </div>
-        </div>
-        <div class="portfolio-item" data-category="structures">
-          <div class="portfolio-item__img portfolio-item__img--3">
-            <div class="portfolio-item__overlay">
-              <span class="portfolio-item__cat">Металлоконструкция</span>
-              <p>Склад, Подольск</p>
-            </div>
-          </div>
-        </div>
-        <div class="portfolio-item" data-category="fences">
-          <div class="portfolio-item__img portfolio-item__img--4">
-            <div class="portfolio-item__overlay">
-              <span class="portfolio-item__cat">Кованый забор</span>
-              <p>Коттеджный посёлок</p>
-            </div>
-          </div>
-        </div>
-        <div class="portfolio-item" data-category="gates">
-          <div class="portfolio-item__img portfolio-item__img--5">
-            <div class="portfolio-item__overlay">
-              <span class="portfolio-item__cat">Ворота распашные</span>
-              <p>Производственный объект</p>
-            </div>
-          </div>
-        </div>
-        <div class="portfolio-item" data-category="stairs">
-          <div class="portfolio-item__img portfolio-item__img--6">
-            <div class="portfolio-item__overlay">
-              <span class="portfolio-item__cat">Перила из нержавейки</span>
-              <p>Офисный центр, Москва</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- PROCESS -->
-  <section class="section process" id="process">
-    <div class="container">
-      <div class="section__header">
-        <div class="section__label">Этапы работы</div>
-        <h2 class="section__title">Как мы работаем</h2>
-        <p class="section__desc">От первого звонка до готового объекта</p>
-      </div>
-
-      <div class="process__steps">
-        <div class="process-step">
-          <div class="process-step__num">01</div>
-          <div class="process-step__body">
-            <h3>Заявка</h3>
-            <p>Оставьте заявку на сайте или позвоните нам. Ответим в течение 15 минут.</p>
-          </div>
-        </div>
-        <div class="process-step">
-          <div class="process-step__num">02</div>
-          <div class="process-step__body">
-            <h3>Консультация</h3>
-            <p>Подберём нужный тип и размер металлопроката. Проконсультируем по техническим характеристикам.</p>
-          </div>
-        </div>
-        <div class="process-step">
-          <div class="process-step__num">03</div>
-          <div class="process-step__body">
-            <h3>Коммерческое предложение</h3>
-            <p>Готовим подробное КП с актуальными ценами и наличием на складе. Согласовываем условия поставки.</p>
-          </div>
-        </div>
-        <div class="process-step">
-          <div class="process-step__num">04</div>
-          <div class="process-step__body">
-            <h3>Комплектация</h3>
-            <p>Комплектуем заказ со склада. При необходимости выполняем порезку в размер.</p>
-          </div>
-        </div>
-        <div class="process-step">
-          <div class="process-step__num">05</div>
-          <div class="process-step__body">
-            <h3>Доставка</h3>
-            <p>Доставляем по Ижевску и Удмуртской Республике. Уточняйте условия у менеджера.</p>
-          </div>
-        </div>
-        <div class="process-step">
-          <div class="process-step__num">06</div>
-          <div class="process-step__body">
-            <h3>Отгрузка и документы</h3>
-            <p>Отгружаем с полным пакетом документов: накладная, сертификаты качества, счёт-фактура.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- CTA / FORM -->
-  <section class="section cta-section" id="cta">
-    <div class="container">
-      <div class="cta-section__inner">
-        <div class="cta-section__content">
-          <div class="section__label">Бесплатно</div>
-          <h2 class="section__title">Получите расчёт стоимости</h2>
-          <p>Оставьте заявку — перезвоним в течение 15 минут, ответим на все вопросы и подберём нужный металлопрокат со склада.</p>
-          <ul class="cta-section__bonuses">
-            <li>Доставка по Ижевску и УР</li>
-            <li>КП в день обращения</li>
-            <li>Скидка 5% при заказе онлайн</li>
-          </ul>
-        </div>
-        <form class="cta-form" id="ctaForm" novalidate>
-          <div class="form-group">
-            <label for="name">Ваше имя</label>
-            <input type="text" id="name" name="name" placeholder="Иван Иванов" required />
-          </div>
-          <div class="form-group">
-            <label for="phone">Телефон</label>
-            <input type="tel" id="phone" name="phone" placeholder="+7 (___) ___-__-__" required />
-          </div>
-          <div class="form-group">
-            <label for="message">Описание проекта</label>
-            <textarea id="message" name="message" rows="3" placeholder="Расскажите, что нужно сделать..."></textarea>
-          </div>
-          <button type="submit" class="btn btn--primary btn--full">Отправить заявку</button>
-          <p class="form-note">Нажимая кнопку, вы соглашаетесь с <a href="#">политикой конфиденциальности</a></p>
-          <div class="form-success" id="formSuccess">
-            <strong>Заявка отправлена!</strong> Свяжемся с вами в течение 15 минут.
-          </div>
-        </form>
-      </div>
-    </div>
-  </section>
-
-  <!-- CONTACTS -->
-  <section class="section contacts" id="contacts">
-    <div class="container">
-      <div class="section__header">
-        <div class="section__label">Где нас найти</div>
-        <h2 class="section__title">Контакты</h2>
-      </div>
-      <div class="contacts__inner">
-        <div class="contacts__info">
-          <div class="contact-item">
-            <div class="contact-item__icon">
-              <svg viewBox="0 0 24 24" fill="none"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" fill="currentColor"/></svg>
-            </div>
-            <div>
-              <strong>Адрес</strong>
-              <p>426039, г. Ижевск, ул. Воткинское Шоссе, д. 200а</p>
-            </div>
-          </div>
-          <div class="contact-item">
-            <div class="contact-item__icon">
-              <svg viewBox="0 0 24 24" fill="none"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" fill="currentColor"/></svg>
-            </div>
-            <div>
-              <strong>Телефон</strong>
-              <p><a href="tel:+79124602661">+7 (912) 460-26-61</a></p>
-              <small>Пн–Пт: 09:00–18:00</small>
-            </div>
-          </div>
-          <div class="contact-item">
-            <div class="contact-item__icon">
-              <svg viewBox="0 0 24 24" fill="none"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" fill="currentColor"/></svg>
-            </div>
-            <div>
-              <strong>Email</strong>
-              <p><a href="mailto:cvetsplav@mail.ru">cvetsplav@mail.ru</a></p>
-              <small>Ответим в течение одного рабочего дня</small>
-            </div>
-          </div>
-          <div class="contact-item">
-            <div class="contact-item__icon">
-              <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/><path d="M12 6v6l4 2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
-            </div>
-            <div>
-              <strong>Режим работы</strong>
-              <p>Пн–Пт: 09:00–18:00</p>
-              <small>Сб–Вс: Выходной</small>
-            </div>
-          </div>
-
-          <div class="contacts__social">
-            <a href="#" class="social-link" aria-label="VK">
-              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69.01-.03.01-.14-.07-.2-.08-.06-.19-.04-.27-.02-.12.02-1.96 1.25-5.54 3.67-.52.36-1 .53-1.42.52-.47-.01-1.37-.26-2.03-.48-.82-.27-1.47-.42-1.42-.88.03-.24.29-.49.79-.74 3.08-1.34 5.15-2.23 6.19-2.66 2.95-1.23 3.56-1.44 3.96-1.45.09 0 .28.02.4.12.1.08.13.19.14.27-.01.06.01.24 0 .24z"/></svg>
-            </a>
-            <a href="#" class="social-link" aria-label="Telegram">
-              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8l-1.68 7.94c-.12.56-.46.7-.93.43l-2.58-1.9-1.24 1.2c-.14.14-.26.26-.53.26l.18-2.62 4.74-4.28c.21-.18-.04-.28-.32-.1L7.9 14.36l-2.52-.79c-.55-.17-.56-.55.12-.82l9.85-3.8c.46-.17.86.11.29.85z"/></svg>
-            </a>
-            <a href="#" class="social-link" aria-label="WhatsApp">
-              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12c0 1.85.5 3.58 1.37 5.07L2 22l5.08-1.34C8.46 21.52 10.17 22 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm5.12 14.18c-.22.6-1.25 1.15-1.71 1.2-.46.04-.47.35-2.97-.67-2.94-1.18-4.67-4.22-4.81-4.41-.14-.2-1.12-1.55-1.06-2.93.06-1.38.74-2.04 1-2.31.26-.27.56-.33.74-.34l.53-.01c.17 0 .4.06.61.48l.87 2.1c.08.2.13.44.01.68l-.39.76-.31.45c.07.12.42.66.94 1.15.71.67 1.31.9 1.5.99l.49-.57c.24-.28.59-.38.9-.23l1.97.95c.29.14.46.28.5.45.05.17-.03.8-.25 1.41z"/></svg>
-            </a>
-          </div>
-        </div>
-
-        <div class="contacts__map">
-          <div class="map-placeholder">
-            <div class="map-placeholder__inner">
-              <svg viewBox="0 0 64 64" fill="none"><path d="M32 8C23.16 8 16 15.16 16 24c0 13 16 32 16 32s16-19 16-32c0-8.84-7.16-16-16-16zm0 22c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6z" fill="currentColor" opacity=".3"/></svg>
-              <p>г. Ижевск, ул. Воткинское Шоссе, 200а</p>
-              <a href="https://yandex.ru/maps/" target="_blank" class="btn btn--outline btn--sm" rel="noopener">Открыть на карте</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- FOOTER -->
+  <!-- 11. ФУТЕР -->
   <footer class="footer">
     <div class="container">
       <div class="footer__inner">
@@ -506,27 +137,20 @@
         <div class="footer__nav">
           <strong>Каталог</strong>
           <ul>
-            <li><a href="#services">Нержавеющий прокат</a></li>
-            <li><a href="#services">Алюминиевый прокат</a></li>
-            <li><a href="#services">Бронзовый прокат</a></li>
-            <li><a href="#services">Латунный прокат</a></li>
-            <li><a href="#services">Титановый прокат</a></li>
-            <li><a href="#services">Медный прокат</a></li>
-          </ul>
-        </div>
-        <div class="footer__nav">
-          <strong>Компания</strong>
-          <ul>
-            <li><a href="#about">О нас</a></li>
-            <li><a href="#portfolio">Портфолио</a></li>
-            <li><a href="#process">Как мы работаем</a></li>
-            <li><a href="#contacts">Контакты</a></li>
+            <li><a href="#catalog">Нержавеющий прокат</a></li>
+            <li><a href="#catalog">Алюминиевый прокат</a></li>
+            <li><a href="#catalog">Бронзовый прокат</a></li>
+            <li><a href="#catalog">Латунный прокат</a></li>
+            <li><a href="#catalog">Титановый прокат</a></li>
+            <li><a href="#catalog">Медный прокат</a></li>
           </ul>
         </div>
         <div class="footer__contact">
           <strong>Контакты</strong>
           <p><a href="tel:+79124602661">+7 (912) 460-26-61</a></p>
           <p><a href="mailto:cvetsplav@mail.ru">cvetsplav@mail.ru</a></p>
+          <p>Пн–Пт: 09:00–18:00</p>
+          <p>Сб–Вс: Выходной</p>
         </div>
       </div>
       <div class="footer__requisites">
@@ -540,9 +164,6 @@
       </div>
     </div>
   </footer>
-
-  <!-- Back to top -->
-  <button class="back-top" id="backTop" aria-label="Наверх">↑</button>
 
   <script src="js/main.js"></script>
 </body>
