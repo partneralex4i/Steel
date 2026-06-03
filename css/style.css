@@ -345,8 +345,56 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   font-size: clamp(17px, 1.8vw, 22px);
   color: var(--text-muted);
   line-height: 1.7;
-  margin-bottom: 44px;
+  margin-bottom: 0;
   max-width: 600px;
+}
+
+.hero__inner {
+  padding: 80px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  text-align: center;
+}
+
+.hero__nalichie {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.hero__nalichie-label {
+  font-family: var(--font-head);
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--white);
+  letter-spacing: 0.5px;
+}
+
+.hero__split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  width: 100%;
+  max-width: 960px;
+  text-align: left;
+}
+
+.hero__split-right {
+  display: flex;
+  align-items: center;
+  padding-left: 48px;
+  border-left: 3px solid var(--accent);
+}
+
+.hero__service-text {
+  font-size: clamp(17px, 1.8vw, 22px);
+  font-weight: 600;
+  line-height: 1.6;
+  color: var(--text);
 }
 
 .hero__actions {
@@ -1175,6 +1223,31 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 }
 .footer__bottom a:hover { color: var(--accent); }
 
+.footer__requisites {
+  border-top: 1px solid var(--border);
+  padding: 20px 0;
+  margin-bottom: 4px;
+}
+.footer__requisites strong {
+  display: block;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+}
+.footer__requisites p {
+  font-size: 12px;
+  color: #555;
+  line-height: 1.9;
+}
+.footer__addr,
+.footer__hours {
+  font-size: 13px;
+  color: var(--text-muted);
+  margin-top: 6px;
+}
+
 /* ===== BACK TO TOP ===== */
 .back-top {
   position: fixed;
@@ -1247,9 +1320,12 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   .header__right { display: none; }
   .burger { display: flex; }
 
-  .hero__title { font-size: 38px; }
+  .hero__title { font-size: 32px; }
   .hero__subtitle br { display: none; }
   .hero__stats { gap: 24px; }
+  .hero__split { grid-template-columns: 1fr; gap: 32px; }
+  .hero__split-right { padding-left: 20px; border-left-width: 2px; }
+  .hero__inner { padding: 48px 0; gap: 32px; }
 
   .about__inner { grid-template-columns: 1fr; gap: 48px; }
   .about__numbers { order: -1; }

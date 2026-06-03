@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>STEEL — Металлоконструкции и изделия из металла</title>
-  <meta name="description" content="Производство и продажа металлоконструкций, ворот, заборов, лестниц и изделий из металла. Собственное производство, гарантия качества." />
+  <title>ООО «ЦветСплав» — Цветной и нержавеющий металлопрокат в Ижевске</title>
+  <meta name="description" content="Поставки цветного и нержавеющего металлопроката напрямую от производителей. Нержавейка, алюминий, бронза, латунь, титан, медь. Ижевск." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
@@ -18,7 +18,7 @@
       <div class="header__inner">
         <a href="#" class="logo">
           <span class="logo__icon">⬡</span>
-          <span class="logo__text">STEEL</span>
+          <span class="logo__text">ЦветСплав</span>
         </a>
 
         <nav class="nav" id="nav">
@@ -52,17 +52,20 @@
       <div class="hero__overlay"></div>
     </div>
     <div class="container">
-      <div class="hero__content">
-        <div class="hero__badge">Надежный поставщик металлопроката</div>
-        <h1 class="hero__title">
-          Все виды <span class="accent">металлопроката</span>
-        </h1>
-        <p class="hero__subtitle">
-          Напрямую от производителей
-        </p>
-        <a href="#" class="btn btn--primary btn--lg hero__download" download>
-          ↓ Скачать наличие металлопроката
-        </a>
+      <div class="hero__inner">
+        <div class="hero__nalichie">
+          <span class="hero__nalichie-label">Складское наличие</span>
+          <a href="files/nalichie.xlsx" class="btn btn--primary" download>↓ Скачать Excel</a>
+        </div>
+        <div class="hero__split">
+          <div class="hero__split-left">
+            <h1 class="hero__title">Все виды <span class="accent">металлопроката</span></h1>
+            <p class="hero__subtitle">Напрямую от производителей</p>
+          </div>
+          <div class="hero__split-right">
+            <p class="hero__service-text">Механическая обработка, изготовление деталей по чертежам и образцам</p>
+          </div>
+        </div>
       </div>
     </div>
     <div class="hero__scroll">
@@ -87,31 +90,7 @@
           <div class="cat-card__overlay"></div>
           <div class="cat-card__body">
             <span class="cat-card__name">НЕРЖАВЕЮЩИЙ<br>МЕТАЛЛОПРОКАТ</span>
-            <span class="cat-card__sub">Круг, труба, лист, уголок, полоса</span>
-          </div>
-        </a>
-
-        <a href="#cta" class="cat-card cat-card--bronz">
-          <div class="cat-card__overlay"></div>
-          <div class="cat-card__body">
-            <span class="cat-card__name">БРОНЗОВЫЙ<br>МЕТАЛЛОПРОКАТ</span>
-            <span class="cat-card__sub">Круг, втулка, лист, труба</span>
-          </div>
-        </a>
-
-        <a href="#cta" class="cat-card cat-card--latun">
-          <div class="cat-card__overlay"></div>
-          <div class="cat-card__body">
-            <span class="cat-card__name">ЛАТУННЫЙ<br>МЕТАЛЛОПРОКАТ</span>
-            <span class="cat-card__sub">Круг, лист, труба, пруток</span>
-          </div>
-        </a>
-
-        <a href="#cta" class="cat-card cat-card--med">
-          <div class="cat-card__overlay"></div>
-          <div class="cat-card__body">
-            <span class="cat-card__name">МЕДНЫЙ<br>МЕТАЛЛОПРОКАТ</span>
-            <span class="cat-card__sub">Труба, лист, шина, пруток</span>
+            <span class="cat-card__sub">Круг, лист, труба, уголок, проволока</span>
           </div>
         </a>
 
@@ -119,15 +98,23 @@
           <div class="cat-card__overlay"></div>
           <div class="cat-card__body">
             <span class="cat-card__name">АЛЮМИНИЕВЫЙ<br>МЕТАЛЛОПРОКАТ</span>
-            <span class="cat-card__sub">Труба, уголок, лист, профиль</span>
+            <span class="cat-card__sub">Круг, лист, труба, уголок, проволока</span>
           </div>
         </a>
 
-        <a href="#cta" class="cat-card cat-card--dyural">
+        <a href="#cta" class="cat-card cat-card--bronz">
           <div class="cat-card__overlay"></div>
           <div class="cat-card__body">
-            <span class="cat-card__name">ДЮРАЛЕВЫЙ<br>МЕТАЛЛОПРОКАТ</span>
-            <span class="cat-card__sub">Круг, плита, лист, пруток</span>
+            <span class="cat-card__name">БРОНЗОВЫЙ<br>МЕТАЛЛОПРОКАТ</span>
+            <span class="cat-card__sub">Круг, лист, труба, уголок</span>
+          </div>
+        </a>
+
+        <a href="#cta" class="cat-card cat-card--latun">
+          <div class="cat-card__overlay"></div>
+          <div class="cat-card__body">
+            <span class="cat-card__name">ЛАТУННЫЙ<br>МЕТАЛЛОПРОКАТ</span>
+            <span class="cat-card__sub">Круг, лист, труба, уголок</span>
           </div>
         </a>
 
@@ -135,15 +122,15 @@
           <div class="cat-card__overlay"></div>
           <div class="cat-card__body">
             <span class="cat-card__name">ТИТАНОВЫЙ<br>МЕТАЛЛОПРОКАТ</span>
-            <span class="cat-card__sub">Лист, круг, труба, проволока</span>
+            <span class="cat-card__sub">Круг, лист, труба, уголок</span>
           </div>
         </a>
 
-        <a href="#cta" class="cat-card cat-card--svinets">
+        <a href="#cta" class="cat-card cat-card--med">
           <div class="cat-card__overlay"></div>
           <div class="cat-card__body">
-            <span class="cat-card__name">СВИНЦОВЫЙ<br>МЕТАЛЛОПРОКАТ</span>
-            <span class="cat-card__sub">Лист, пруток, проволока</span>
+            <span class="cat-card__name">МЕДНЫЙ<br>МЕТАЛЛОПРОКАТ</span>
+            <span class="cat-card__sub">Круг, лист, труба, уголок</span>
           </div>
         </a>
 
@@ -159,15 +146,15 @@
           <div class="section__label">О компании</div>
           <h2 class="section__title">Поставляем металлопрокат с&nbsp;2009&nbsp;года</h2>
           <p class="about__text">
-            Компания <strong>STEEL</strong> — надёжный поставщик цветного и нержавеющего металлопроката. Работаем напрямую с ведущими заводами-производителями, что позволяет предлагать конкурентные цены и широкий ассортимент в наличии.
+            Компания <strong>ЦветСплав</strong> — надёжный поставщик цветного и нержавеющего металлопроката. Работаем напрямую с ведущими заводами-производителями, что позволяет предлагать конкурентные цены и широкий ассортимент в наличии.
           </p>
           <p class="about__text">
-            Работаем с частными заказчиками, строительными компаниями и промышленными предприятиями. Более 800 выполненных поставок в Москве и Подмосковье.
+            Работаем с частными заказчиками, строительными компаниями и промышленными предприятиями. Более 800 выполненных поставок по России.
           </p>
           <ul class="about__list">
             <li>Широкий ассортимент в наличии на складе</li>
             <li>Резка металла в размер под заказ</li>
-            <li>Доставка по Москве и Московской области</li>
+            <li>Доставка по Ижевску и Удмуртской Республике</li>
             <li>Работа с юридическими лицами, НДС</li>
           </ul>
           <a href="#cta" class="btn btn--primary">Обсудить проект</a>
@@ -377,7 +364,7 @@
           <div class="process-step__num">05</div>
           <div class="process-step__body">
             <h3>Доставка</h3>
-            <p>Доставляем собственным транспортом. Бесплатно в радиусе 50 км от Москвы.</p>
+            <p>Доставляем по Ижевску и Удмуртской Республике. Уточняйте условия у менеджера.</p>
           </div>
         </div>
         <div class="process-step">
@@ -400,7 +387,7 @@
           <h2 class="section__title">Получите расчёт стоимости</h2>
           <p>Оставьте заявку — перезвоним в течение 15 минут, ответим на все вопросы и подберём нужный металлопрокат со склада.</p>
           <ul class="cta-section__bonuses">
-            <li>Доставка по Москве и МО</li>
+            <li>Доставка по Ижевску и УР</li>
             <li>КП в день обращения</li>
             <li>Скидка 5% при заказе онлайн</li>
           </ul>
@@ -443,8 +430,7 @@
             </div>
             <div>
               <strong>Адрес</strong>
-              <p>г. Москва, ул. Промышленная, д. 12, стр. 3</p>
-              <small>Производство: МО, Подольск, ул. Заводская, 8</small>
+              <p>426039, г. Ижевск, ул. Воткинское Шоссе, д. 200а</p>
             </div>
           </div>
           <div class="contact-item">
@@ -454,7 +440,7 @@
             <div>
               <strong>Телефон</strong>
               <p><a href="tel:+79124602661">+7 (912) 460-26-61</a></p>
-              <small>Звонки ежедневно с 8:00 до 20:00</small>
+              <small>Пн–Пт: 09:00–18:00</small>
             </div>
           </div>
           <div class="contact-item">
@@ -473,8 +459,8 @@
             </div>
             <div>
               <strong>Режим работы</strong>
-              <p>Пн–Пт: 9:00 – 19:00</p>
-              <small>Сб–Вс: 10:00 – 16:00</small>
+              <p>Пн–Пт: 09:00–18:00</p>
+              <small>Сб–Вс: Выходной</small>
             </div>
           </div>
 
@@ -495,7 +481,7 @@
           <div class="map-placeholder">
             <div class="map-placeholder__inner">
               <svg viewBox="0 0 64 64" fill="none"><path d="M32 8C23.16 8 16 15.16 16 24c0 13 16 32 16 32s16-19 16-32c0-8.84-7.16-16-16-16zm0 22c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6z" fill="currentColor" opacity=".3"/></svg>
-              <p>г. Москва, ул. Промышленная, 12</p>
+              <p>г. Ижевск, ул. Воткинское Шоссе, 200а</p>
               <a href="https://yandex.ru/maps/" target="_blank" class="btn btn--outline btn--sm" rel="noopener">Открыть на карте</a>
             </div>
           </div>
@@ -511,18 +497,21 @@
         <div class="footer__brand">
           <a href="#" class="logo">
             <span class="logo__icon">⬡</span>
-            <span class="logo__text">STEEL</span>
+            <span class="logo__text">ЦветСплав</span>
           </a>
-          <p>Поставки цветного и нержавеющего металлопроката. Широкий ассортимент со склада в Москве.</p>
+          <p>Поставки цветного и нержавеющего металлопроката. Широкий ассортимент со склада в Ижевске.</p>
+          <p class="footer__addr">426039, г. Ижевск, ул. Воткинское Шоссе, д. 200а</p>
+          <p class="footer__hours">Пн–Пт: 09:00–18:00 &nbsp;|&nbsp; Сб–Вс: Выходной</p>
         </div>
         <div class="footer__nav">
-          <strong>Услуги</strong>
+          <strong>Каталог</strong>
           <ul>
             <li><a href="#services">Нержавеющий прокат</a></li>
             <li><a href="#services">Алюминиевый прокат</a></li>
-            <li><a href="#services">Медный прокат</a></li>
             <li><a href="#services">Бронзовый прокат</a></li>
-            <li><a href="#services">Резка в размер</a></li>
+            <li><a href="#services">Латунный прокат</a></li>
+            <li><a href="#services">Титановый прокат</a></li>
+            <li><a href="#services">Медный прокат</a></li>
           </ul>
         </div>
         <div class="footer__nav">
@@ -538,11 +527,15 @@
           <strong>Контакты</strong>
           <p><a href="tel:+79124602661">+7 (912) 460-26-61</a></p>
           <p><a href="mailto:cvetsplav@mail.ru">cvetsplav@mail.ru</a></p>
-          <p>Пн–Пт 9:00–19:00</p>
         </div>
       </div>
+      <div class="footer__requisites">
+        <strong>Реквизиты</strong>
+        <p>ООО «ЦветСплав» &nbsp;|&nbsp; ОГРН: 1251800005412 &nbsp;|&nbsp; КПП: 180001001</p>
+        <p>Р/С: 40702810529850005187 &nbsp;|&nbsp; Банк: ФИЛИАЛ «НИЖЕГОРОДСКИЙ» АО «АЛЬФА-БАНК» &nbsp;|&nbsp; К/С: 30101810200000000824 &nbsp;|&nbsp; БИК: 042202824</p>
+      </div>
       <div class="footer__bottom">
-        <p>© 2009–2026 STEEL. Все права защищены.</p>
+        <p>© 2025–2026 ООО «ЦветСплав». Все права защищены.</p>
         <a href="#">Политика конфиденциальности</a>
       </div>
     </div>
