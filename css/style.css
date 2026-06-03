@@ -1510,20 +1510,30 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   .hero-split__right { padding-left: 20px; border-left-width: 2px; }
   .hero-split { padding: 48px 0; }
   .catalog__grid { grid-template-columns: repeat(2, 1fr); }
-  .cat-row { height: 180px; }
+  .cat-row {
+    height: 180px;
+    position: relative;
+    overflow: hidden;
+  }
   .cat-row__photo {
     position: absolute;
+    inset: 0;
     width: 100%;
     height: 100%;
-    right: 0; top: 0;
     opacity: 0.35;
   }
   .cat-row__photo::before { display: none; }
+  .cat-row__photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
   .cat-row__body {
     position: relative;
     z-index: 1;
     width: 100%;
     padding: 24px;
+    flex: none;
   }
 
   .about__inner { grid-template-columns: 1fr; gap: 48px; }
