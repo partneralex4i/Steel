@@ -394,7 +394,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 }
 .hero-split__sub {
   font-family: var(--font-head);
-  font-size: clamp(14px, 1.3vw, 18px);
+  font-size: clamp(16px, 1.6vw, 22px);
   font-weight: 500;
   color: var(--text-muted);
   line-height: 1.5;
