@@ -1511,29 +1511,31 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   .hero-split { padding: 48px 0; }
   .catalog__grid { grid-template-columns: repeat(2, 1fr); }
   .cat-row {
+    display: grid;
     height: 180px;
-    position: relative;
     overflow: hidden;
   }
-  .cat-row__photo {
-    position: absolute;
-    inset: 0;
+  .cat-row__body {
+    grid-area: 1 / 1;
+    z-index: 1;
     width: 100%;
-    height: 100%;
-    opacity: 0.35;
+    padding: 24px;
+    align-self: center;
+    flex: none;
+  }
+  .cat-row__photo {
+    grid-area: 1 / 1;
+    position: static;
+    width: 100%;
+    height: 180px;
+    opacity: 0.4;
+    z-index: 0;
   }
   .cat-row__photo::before { display: none; }
   .cat-row__photo img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-  }
-  .cat-row__body {
-    position: relative;
-    z-index: 1;
-    width: 100%;
-    padding: 24px;
-    flex: none;
   }
 
   .about__inner { grid-template-columns: 1fr; gap: 48px; }
