@@ -391,14 +391,8 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 .hero-split__right .accent {
   color: var(--white);
 }
-.hero-split__desc {
-  font-size: clamp(16px, 1.6vw, 22px) !important;
-  font-weight: 500 !important;
-  color: var(--text-muted) !important;
-  margin-bottom: 0;
-}
-.hero-split__desc .accent {
-  color: var(--text-muted) !important;
+.hero-split__right .hero-split__sub .accent {
+  color: var(--text-muted);
 }
 
 /* ===== HERO ===== */
@@ -1521,12 +1515,14 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   .hero-split__grid { grid-template-columns: 1fr; gap: 32px; }
   .hero-split__right { padding-left: 0; border-left: none; }
   .hero-split__right .accent { color: var(--accent); }
-  .hero-split__desc {
-    font-size: clamp(28px, 3.2vw, 48px) !important;
-    font-weight: 700 !important;
-    color: var(--white) !important;
+  .hero-split__right .hero-split__sub {
+    font-family: var(--font-head);
+    font-size: clamp(28px, 3.2vw, 48px);
+    font-weight: 700;
+    color: var(--white);
+    line-height: 1.2;
   }
-  .hero-split__desc .accent { color: var(--accent) !important; }
+  .hero-split__right .hero-split__sub .accent { color: var(--accent); }
   .hero-split { padding: 48px 0; }
   .catalog__grid { grid-template-columns: repeat(2, 1fr); }
   .cat-row {
