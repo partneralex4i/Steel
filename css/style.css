@@ -363,31 +363,42 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 }
 .hero-split__grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  align-items: stretch;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
 }
-.hero-split__col {
-  padding: 44px 48px;
-  border-left: 2px solid var(--accent);
-}
-.hero-split__col:first-child {
-  border-left: none;
-  padding-left: 0;
-}
-.hero-split__line1 {
+.hero-split__title {
   font-family: var(--font-head);
   font-weight: 700;
-  font-size: clamp(20px, 2.2vw, 32px);
+  font-size: clamp(28px, 3.2vw, 48px);
   color: var(--white);
   line-height: 1.2;
-  margin-bottom: 6px;
+  margin-bottom: 12px;
 }
-.hero-split__line2 {
+.hero-split__sub {
   font-family: var(--font-head);
-  font-weight: 700;
-  font-size: clamp(20px, 2.2vw, 32px);
-  color: var(--accent);
-  line-height: 1.2;
+  font-size: clamp(16px, 1.6vw, 22px);
+  font-weight: 500;
+  color: var(--text-muted);
+  line-height: 1.5;
+}
+.hero-split__right {
+  padding-left: 48px;
+  border-left: 2px solid var(--accent);
+}
+.hero-split__right .accent {
+  color: var(--white);
+}
+.hero-split__desc {
+  font-size: clamp(16px, 1.6vw, 22px) !important;
+  font-weight: 500 !important;
+  color: var(--text-muted) !important;
+  margin-bottom: 0;
+}
+.hero-split__desc .accent {
+  color: var(--text-muted) !important;
 }
 
 /* ===== HERO ===== */
@@ -1507,9 +1518,15 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   .hero__split { grid-template-columns: 1fr; gap: 32px; }
   .hero__split-right { padding-left: 20px; border-left-width: 2px; }
   .hero__inner { padding: 48px 0; gap: 32px; }
-  .hero-split__grid { grid-template-columns: 1fr; }
-  .hero-split__col { padding: 20px 0; border-left: none; border-top: 1px solid var(--border); }
-  .hero-split__col:first-child { border-top: none; }
+  .hero-split__grid { grid-template-columns: 1fr; gap: 32px; }
+  .hero-split__right { padding-left: 0; border-left: none; }
+  .hero-split__right .accent { color: var(--accent); }
+  .hero-split__desc {
+    font-size: clamp(28px, 3.2vw, 48px) !important;
+    font-weight: 700 !important;
+    color: var(--white) !important;
+  }
+  .hero-split__desc .accent { color: var(--accent) !important; }
   .hero-split { padding: 48px 0; }
   .catalog__grid { grid-template-columns: repeat(2, 1fr); }
   .cat-row {
