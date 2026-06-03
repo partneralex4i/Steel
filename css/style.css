@@ -1513,7 +1513,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   .hero__split-right { padding-left: 20px; border-left-width: 2px; }
   .hero__inner { padding: 48px 0; gap: 32px; }
   .hero-split__grid { grid-template-columns: 1fr; gap: 32px; }
-  .hero-split__right { padding-left: 0; border-left: none; }
+  .hero-split__right { padding-left: 0; border-left: none !important; }
   .hero-split__right .accent { color: var(--accent); }
   .hero-split__right .hero-split__sub {
     font-family: var(--font-head);
