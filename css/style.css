@@ -282,7 +282,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   position: relative;
   display: block;
   width: 100%;
-  min-height: 140px;
+  min-height: 220px;
   text-decoration: none;
   overflow: hidden;
   transition: transform .2s ease, box-shadow .2s ease;
