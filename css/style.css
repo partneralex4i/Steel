@@ -1408,6 +1408,11 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 }
 .footer__bar-link:hover { color: var(--accent); }
 .footer__bar-logo { flex-shrink: 0; }
+.footer__bar-desc {
+  font-size: 13px;
+  color: var(--white);
+  font-weight: 500;
+}
 
 .footer__requisites {
   border-top: 1px solid var(--border);
